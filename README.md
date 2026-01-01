@@ -22,5 +22,4 @@ Rearrange the pixels of any photo to form a Gandhi-portrait-like mosaic.
 - Better quality: use 128×128 or 256×256 (slower).
 - Works best with a high-contrast Gandhi portrait and a colorful source image.
 
-## License
-MIT (or choose any license you prefer).
+
