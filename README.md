@@ -2,6 +2,9 @@
 
 Rearrange the pixels of any photo to form a Gandhi-portrait-like mosaic.
 
+## Output preview
+![Anything Bapu Output](anything_bapu.png)
+
 ## What it does
 - Takes a target Gandhi portrait (the “shape” to recreate).
 - Takes your source photo (the pixel “paint”).
@@ -19,9 +22,5 @@ Rearrange the pixels of any photo to form a Gandhi-portrait-like mosaic.
 - Better quality: use 128×128 or 256×256 (slower).
 - Works best with a high-contrast Gandhi portrait and a colorful source image.
 
-## Troubleshooting
-- If it looks noisy: increase target size or try a sharper target portrait.
-- If it’s slow: reduce target size.
-- If colors look off: try a brighter source image.
-
-
+## License
+MIT (or choose any license you prefer).
