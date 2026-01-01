@@ -1,12 +1,27 @@
-# Pixel-to-Gandhi: Photo Mosaic Generator
+# Pixel-to-Gandhi (Colab)
 
-Transform **any photo** into a **recognizable Mahatma Gandhi portrait** using its own pixels! Fun ML/computer vision project for Google Colab.
+Rearrange the pixels of any photo to form a Gandhi-portrait-like mosaic.
 
-## ✨ Demo
-| Your Photo | Gandhi Target | Result: Pixels → Gandhi |
-|------------|---------------|-------------------------|
-| ![source](source_example.jpg) | ![gandhi](gandhi_example.jpg) | ![mosaic](mosaic_example.jpg) |
+## What it does
+- Takes a target Gandhi portrait (the “shape” to recreate).
+- Takes your source photo (the pixel “paint”).
+- Reorders/samples your photo’s pixels to match the target portrait’s colors, creating a mosaic that looks like Gandhi.
 
-## 🚀 Quick Start (Colab)
-1. Open [Google Colab](https://colab.research.google.com)
-2. Enable GPU: `Runtime > Change runtime type
+## How to use
+1. Open the notebook in Google Colab (GPU optional).
+2. Run the single cell in the notebook.
+3. Upload a clear Gandhi portrait first (target).
+4. Upload your photo second (source).
+5. View the output: target, source, sampled pixels, final mosaic.
+
+## Tips
+- Faster preview: use target size 64×64.
+- Better quality: use 128×128 or 256×256 (slower).
+- Works best with a high-contrast Gandhi portrait and a colorful source image.
+
+## Troubleshooting
+- If it looks noisy: increase target size or try a sharper target portrait.
+- If it’s slow: reduce target size.
+- If colors look off: try a brighter source image.
+
+
